@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 355px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .title{
+    background-color: #f05;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.container .title span{
+    color: rgb(255, 213, 0);
+}
+.container .box-container{
+    width: 355px;
+    height: 355px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .box{
+    background-color: #f05;
+    width: calc(95% / 3);
+    height: calc(95% / 3);
+    font-size: 85px;
+    line-height: 100%;
+    color: #fff;
+}
+.container .box:hover{
+    background: #000;
+    cursor: pointer;
+}
